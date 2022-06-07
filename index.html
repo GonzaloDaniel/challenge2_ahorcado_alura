@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilosprincipales.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="encabezado"> <h1><img src="./img/Vector.svg" alt=""></h1></header>
+    
+    <main>
+        
+        <div class="mugneco-canvas">
+            <div id="ahorcado"></div>
+            <br>            
+            <div id="contenedorPalabra"></div>
+            <br>
+            <div id="letrasUsadas"></div>
+        </div>
+
+        <div id="mensaje"></div>
+        
+
+        <div class="botones-principales-juegoprincipal">            
+            <button id="botonInicio">Iniciar Juego</button>
+            <button id="botonAgregarPalabra">Agregar Palabra</button>
+        </div>
+        <div class="botones-durante-juego">
+            <button class="botonNuevoJuego" id="botonNuevoJuego">Nuevo Juego</button>
+            <button class="botonDesistir" id="botonDesistir">Reiniciar</button>
+        </div>
+
+        <div id="nuevaPalabra">
+            <label for="leerPalabra">Escriba palabra:</label>
+            <input type="text" name="Palabra" id="leerPalabra">
+            <button id="guardarPalabra">Aceptar Palabra</button>
+        </div>
+        
+    </main>  
+
+    <footer>
+        <p>By Gonzalo Ietri | Challenge I | Allura - Oracle</p>
+    </footer>
+
+    <script src="js/iniciarJuego.js"></script>
+
+
+</body>
+</html>
